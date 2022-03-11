@@ -1,0 +1,12519 @@
+{
+	"cameras": [
+		{
+			"fov": 0.3036452829837799,
+			"ortho": false,
+			"size": 1.0,
+			"zrange": {
+				"zfar": 100.0,
+				"znear": 0.10000000149011612
+			}
+		},
+		{
+			"fov": 1.3060643672943115,
+			"ortho": false,
+			"size": 1.0,
+			"zrange": {
+				"zfar": 1000.0,
+				"znear": 0.10000000149011612
+			}
+		},
+		{
+			"fov": 0.4993579685688019,
+			"ortho": false,
+			"size": 1.0,
+			"zrange": {
+				"zfar": 1000.0,
+				"znear": 0.10000000149011612
+			}
+		}
+	],
+	"canvas": {
+		"clear_color": true,
+		"clear_z": true,
+		"color": [
+			78,
+			98,
+			126,
+			255
+		]
+	},
+	"environment": {
+		"ambient": [
+			0,
+			0,
+			0,
+			0
+		],
+		"brdf_map": "core/pbr/brdf.dds",
+		"current_camera": 1,
+		"fog_color": [
+			0,
+			0,
+			0,
+			0
+		],
+		"fog_far": 0.0,
+		"fog_near": 0.0,
+		"irradiance_map": "core/pbr/blue_sky.hdr.irradiance",
+		"radiance_map": "core/pbr/blue_sky.hdr.radiance"
+	},
+	"instances": [
+		{
+			"name": "primitives/grid.scn"
+		},
+		{
+			"name": "calibration_gauge/calibration.scn"
+		},
+		{
+			"name": "primitives/grid.scn"
+		},
+		{
+			"name": "primitives/grid.scn"
+		}
+	],
+	"key_values": null,
+	"lights": [
+		{
+			"diffuse": [
+				255,
+				255,
+				255,
+				255
+			],
+			"diffuse_intensity": 1.0,
+			"inner_angle": 0.2652882933616638,
+			"outer_angle": 0.5743058323860168,
+			"priority": 0.0,
+			"pssm_split": [
+				10.0,
+				50.0,
+				100.0,
+				500.0
+			],
+			"radius": 0.0,
+			"shadow_bias": 9.999999747378752e-05,
+			"shadow_type": "map",
+			"specular": [
+				255,
+				255,
+				255,
+				255
+			],
+			"specular_intensity": 1.0,
+			"type": "spot"
+		}
+	],
+	"nodes": [
+		{
+			"components": [
+				0,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 0,
+			"name": "Camera"
+		},
+		{
+			"components": [
+				1,
+				0,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 1,
+			"name": "Camera_Orientation"
+		},
+		{
+			"components": [
+				2,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 2,
+			"name": "Reachy_origin"
+		},
+		{
+			"components": [
+				3,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 3,
+			"name": "back_interface"
+		},
+		{
+			"components": [
+				4,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 4,
+			"name": "back_interface.001"
+		},
+		{
+			"components": [
+				5,
+				4294967295,
+				0,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 5,
+			"name": "back_aluminium_fixation"
+		},
+		{
+			"components": [
+				6,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 6,
+			"name": "cylinder_interface"
+		},
+		{
+			"components": [
+				7,
+				4294967295,
+				1,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 7,
+			"name": "Cylinder"
+		},
+		{
+			"components": [
+				8,
+				4294967295,
+				2,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 8,
+			"name": "screw.010"
+		},
+		{
+			"components": [
+				9,
+				4294967295,
+				3,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 9,
+			"name": "chest"
+		},
+		{
+			"components": [
+				10,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 10,
+			"name": "IOs"
+		},
+		{
+			"components": [
+				11,
+				4294967295,
+				4,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 11,
+			"name": "button_1"
+		},
+		{
+			"components": [
+				12,
+				4294967295,
+				4,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 12,
+			"name": "button_1.001"
+		},
+		{
+			"components": [
+				13,
+				4294967295,
+				71,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 13,
+			"name": "ethernet"
+		},
+		{
+			"components": [
+				14,
+				4294967295,
+				5,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 14,
+			"name": "hdmi"
+		},
+		{
+			"components": [
+				15,
+				4294967295,
+				6,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 15,
+			"name": "IO"
+		},
+		{
+			"components": [
+				16,
+				4294967295,
+				7,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 16,
+			"name": "power_input"
+		},
+		{
+			"components": [
+				17,
+				4294967295,
+				8,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 17,
+			"name": "USB"
+		},
+		{
+			"components": [
+				18,
+				4294967295,
+				9,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 18,
+			"name": "left_shoulder_cap"
+		},
+		{
+			"components": [
+				19,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 19,
+			"name": "logo"
+		},
+		{
+			"components": [
+				20,
+				4294967295,
+				10,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 20,
+			"name": "logo_dark_blue"
+		},
+		{
+			"components": [
+				21,
+				4294967295,
+				11,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 21,
+			"name": "logo_light_blue"
+		},
+		{
+			"components": [
+				22,
+				4294967295,
+				12,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 22,
+			"name": "logo_pollen"
+		},
+		{
+			"components": [
+				23,
+				4294967295,
+				13,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 23,
+			"name": "logo_red"
+		},
+		{
+			"components": [
+				24,
+				4294967295,
+				14,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 24,
+			"name": "logo_support"
+		},
+		{
+			"components": [
+				25,
+				4294967295,
+				15,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 25,
+			"name": "logo_yellow"
+		},
+		{
+			"components": [
+				26,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 26,
+			"name": "neck_interface"
+		},
+		{
+			"components": [
+				27,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 27,
+			"name": "neck_joint"
+		},
+		{
+			"components": [
+				28,
+				4294967295,
+				16,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 28,
+			"name": "back_head"
+		},
+		{
+			"components": [
+				29,
+				4294967295,
+				17,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 29,
+			"name": "front_head"
+		},
+		{
+			"components": [
+				30,
+				4294967295,
+				18,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 30,
+			"name": "head_screws"
+		},
+		{
+			"components": [
+				31,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 31,
+			"name": "left_ear_interface"
+		},
+		{
+			"components": [
+				32,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 32,
+			"name": "left_ear_joint"
+		},
+		{
+			"components": [
+				33,
+				4294967295,
+				19,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 33,
+			"name": "antenna.002"
+		},
+		{
+			"components": [
+				34,
+				4294967295,
+				20,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 34,
+			"name": "ear.001"
+		},
+		{
+			"components": [
+				35,
+				4294967295,
+				21,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 35,
+			"name": "magnet_4x3mm.003"
+		},
+		{
+			"components": [
+				36,
+				4294967295,
+				21,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 36,
+			"name": "magnet_4x3mm.004"
+		},
+		{
+			"components": [
+				37,
+				4294967295,
+				21,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 37,
+			"name": "magnet_4x3mm.005"
+		},
+		{
+			"components": [
+				38,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 38,
+			"name": "left_eye"
+		},
+		{
+			"components": [
+				39,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 39,
+			"name": "left_camera"
+		},
+		{
+			"components": [
+				40,
+				1,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 40,
+			"name": "left_camera_Orientation"
+		},
+		{
+			"components": [
+				41,
+				4294967295,
+				76,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 41,
+			"name": "OVA5647_Housing.001"
+		},
+		{
+			"components": [
+				42,
+				4294967295,
+				22,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 42,
+			"name": "OVA5647_Lens_FOV.001"
+		},
+		{
+			"components": [
+				43,
+				4294967295,
+				23,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 43,
+			"name": "small_eye_body"
+		},
+		{
+			"components": [
+				44,
+				4294967295,
+				24,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 44,
+			"name": "small_eye_iris"
+		},
+		{
+			"components": [
+				45,
+				4294967295,
+				25,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 45,
+			"name": "small_eye_lens"
+		},
+		{
+			"components": [
+				46,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 46,
+			"name": "right_ear_interface"
+		},
+		{
+			"components": [
+				47,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 47,
+			"name": "right_ear_joint"
+		},
+		{
+			"components": [
+				48,
+				4294967295,
+				19,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 48,
+			"name": "antenna.001"
+		},
+		{
+			"components": [
+				49,
+				4294967295,
+				20,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 49,
+			"name": "ear"
+		},
+		{
+			"components": [
+				50,
+				4294967295,
+				21,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 50,
+			"name": "magnet_4x3mm"
+		},
+		{
+			"components": [
+				51,
+				4294967295,
+				21,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 51,
+			"name": "magnet_4x3mm.001"
+		},
+		{
+			"components": [
+				52,
+				4294967295,
+				21,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 52,
+			"name": "magnet_4x3mm.002"
+		},
+		{
+			"components": [
+				53,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 53,
+			"name": "right_eye"
+		},
+		{
+			"components": [
+				54,
+				4294967295,
+				81,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 54,
+			"name": "big_eye_body"
+		},
+		{
+			"components": [
+				55,
+				4294967295,
+				26,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 55,
+			"name": "big_eye_iris"
+		},
+		{
+			"components": [
+				56,
+				4294967295,
+				27,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 56,
+			"name": "big_eye_lens"
+		},
+		{
+			"components": [
+				57,
+				4294967295,
+				76,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 57,
+			"name": "OVA5647_Housing.002"
+		},
+		{
+			"components": [
+				58,
+				4294967295,
+				22,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 58,
+			"name": "OVA5647_Lens_FOV.002"
+		},
+		{
+			"components": [
+				59,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 59,
+			"name": "right_camera"
+		},
+		{
+			"components": [
+				60,
+				2,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 60,
+			"name": "right_camera_Orientation"
+		},
+		{
+			"components": [
+				61,
+				4294967295,
+				77,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 61,
+			"name": "right_shoulder_cap"
+		},
+		{
+			"components": [
+				62,
+				4294967295,
+				28,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 62,
+			"name": "shirt"
+		},
+		{
+			"components": [
+				63,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 63,
+			"name": "shoulder_left_interface"
+		},
+		{
+			"components": [
+				64,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 64,
+			"name": "chest_interface.003"
+		},
+		{
+			"components": [
+				65,
+				4294967295,
+				29,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 65,
+			"name": "DXL106_fixation.001"
+		},
+		{
+			"components": [
+				66,
+				4294967295,
+				30,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 66,
+			"name": "left_shoulder_pitch"
+		},
+		{
+			"components": [
+				67,
+				4294967295,
+				31,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 67,
+			"name": "screw.007"
+		},
+		{
+			"components": [
+				68,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 68,
+			"name": "shoulder_pitch_position.001"
+		},
+		{
+			"components": [
+				69,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 69,
+			"name": "left_shoulder_pitch_joint"
+		},
+		{
+			"components": [
+				70,
+				4294967295,
+				32,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 70,
+			"name": "MX106_horn.001"
+		},
+		{
+			"components": [
+				71,
+				4294967295,
+				33,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 71,
+			"name": "MX106_horn_screw.001"
+		},
+		{
+			"components": [
+				72,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 72,
+			"name": "shoulder_interface.003"
+		},
+		{
+			"components": [
+				73,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 73,
+			"name": "chest_interface.002"
+		},
+		{
+			"components": [
+				74,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 74,
+			"name": "arm_interface_left.001"
+		},
+		{
+			"components": [
+				75,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 75,
+			"name": "arm.001"
+		},
+		{
+			"components": [
+				76,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 76,
+			"name": "shoulder_roll_position.001"
+		},
+		{
+			"components": [
+				77,
+				4294967295,
+				34,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 77,
+			"name": "Horn_screw.002"
+		},
+		{
+			"components": [
+				78,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 78,
+			"name": "left_shoulder_roll_joint"
+		},
+		{
+			"components": [
+				79,
+				4294967295,
+				35,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 79,
+			"name": "free_horn_screw.003"
+		},
+		{
+			"components": [
+				80,
+				4294967295,
+				36,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 80,
+			"name": "MX64_body.003"
+		},
+		{
+			"components": [
+				81,
+				4294967295,
+				37,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 81,
+			"name": "screws.003"
+		},
+		{
+			"components": [
+				82,
+				4294967295,
+				38,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 82,
+			"name": "Shouler2Arm.001"
+		},
+		{
+			"components": [
+				83,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 83,
+			"name": "upper_arm_interface.002"
+		},
+		{
+			"components": [
+				84,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 84,
+			"name": "shoulder_interface.001"
+		},
+		{
+			"components": [
+				85,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 85,
+			"name": "arm_yaw_position.001"
+		},
+		{
+			"components": [
+				86,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 86,
+			"name": "left_arm_yaw_joint"
+		},
+		{
+			"components": [
+				87,
+				4294967295,
+				39,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 87,
+			"name": "bearing_needles.002"
+		},
+		{
+			"components": [
+				88,
+				4294967295,
+				40,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 88,
+			"name": "bearing_plate.001"
+		},
+		{
+			"components": [
+				89,
+				4294967295,
+				41,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 89,
+			"name": "bearing_support.002"
+		},
+		{
+			"components": [
+				90,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 90,
+			"name": "elbow_pitch_position.001"
+		},
+		{
+			"components": [
+				91,
+				4294967295,
+				35,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 91,
+			"name": "free_horn_screw.004"
+		},
+		{
+			"components": [
+				92,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 92,
+			"name": "left_elbow_pitch_joint"
+		},
+		{
+			"components": [
+				93,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 93,
+			"name": "forearm_interface.002"
+		},
+		{
+			"components": [
+				94,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 94,
+			"name": "upper_arm_interface.003"
+		},
+		{
+			"components": [
+				95,
+				4294967295,
+				72,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 95,
+			"name": "assembly_screw.001"
+		},
+		{
+			"components": [
+				96,
+				4294967295,
+				42,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 96,
+			"name": "bearing_needles.003"
+		},
+		{
+			"components": [
+				97,
+				4294967295,
+				43,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 97,
+			"name": "bearing_support.003"
+		},
+		{
+			"components": [
+				98,
+				4294967295,
+				44,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 98,
+			"name": "forearm.001"
+		},
+		{
+			"components": [
+				99,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 99,
+			"name": "forearm_yaw_position.001"
+		},
+		{
+			"components": [
+				100,
+				4294967295,
+				45,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 100,
+			"name": "AX_body.001"
+		},
+		{
+			"components": [
+				101,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 101,
+			"name": "left_forearm_yaw_joint"
+		},
+		{
+			"components": [
+				102,
+				4294967295,
+				46,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 102,
+			"name": "AX_horn.001"
+		},
+		{
+			"components": [
+				103,
+				4294967295,
+				47,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 103,
+			"name": "horn_screw.003"
+		},
+		{
+			"components": [
+				104,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 104,
+			"name": "wrist_interface.002"
+		},
+		{
+			"components": [
+				105,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 105,
+			"name": "forearm_interface.003"
+		},
+		{
+			"components": [
+				106,
+				4294967295,
+				48,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 106,
+			"name": "screws.005"
+		},
+		{
+			"components": [
+				107,
+				4294967295,
+				49,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 107,
+			"name": "wrist.001"
+		},
+		{
+			"components": [
+				108,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 108,
+			"name": "wrist_pitch_position.001"
+		},
+		{
+			"components": [
+				109,
+				4294967295,
+				50,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 109,
+			"name": "free_horn_screw.005"
+		},
+		{
+			"components": [
+				110,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 110,
+			"name": "left_wrist_pitch_joint"
+		},
+		{
+			"components": [
+				111,
+				4294967295,
+				51,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 111,
+			"name": "MX28_free_horn.001"
+		},
+		{
+			"components": [
+				112,
+				4294967295,
+				52,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 112,
+			"name": "MX28_horn.001"
+		},
+		{
+			"components": [
+				113,
+				4294967295,
+				53,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 113,
+			"name": "MX28_horn_screw.001"
+		},
+		{
+			"components": [
+				114,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 114,
+			"name": "wristhand_interface.001"
+		},
+		{
+			"components": [
+				115,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 115,
+			"name": "wrist_interface.003"
+		},
+		{
+			"components": [
+				116,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 116,
+			"name": "hand_interface.001"
+		},
+		{
+			"components": [
+				117,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 117,
+			"name": "wrist_interface.004"
+		},
+		{
+			"components": [
+				118,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 118,
+			"name": "wrist_roll_position"
+		},
+		{
+			"components": [
+				119,
+				4294967295,
+				46,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 119,
+			"name": "AX_horn.003"
+		},
+		{
+			"components": [
+				120,
+				4294967295,
+				47,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 120,
+			"name": "horn_screw.005"
+		},
+		{
+			"components": [
+				121,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 121,
+			"name": "left_wrist_roll_joint"
+		},
+		{
+			"components": [
+				122,
+				4294967295,
+				45,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 122,
+			"name": "AX_body.002"
+		},
+		{
+			"components": [
+				123,
+				4294967295,
+				45,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 123,
+			"name": "AX_body.003"
+		},
+		{
+			"components": [
+				124,
+				4294967295,
+				79,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 124,
+			"name": "fix_finger"
+		},
+		{
+			"components": [
+				125,
+				4294967295,
+				54,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 125,
+			"name": "force_barre"
+		},
+		{
+			"components": [
+				126,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 126,
+			"name": "gripper_motor_position"
+		},
+		{
+			"components": [
+				127,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 127,
+			"name": "left_gripper_joint"
+		},
+		{
+			"components": [
+				128,
+				4294967295,
+				46,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 128,
+			"name": "AX_horn.002"
+		},
+		{
+			"components": [
+				129,
+				4294967295,
+				73,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 129,
+			"name": "gripper_screw"
+		},
+		{
+			"components": [
+				130,
+				4294967295,
+				47,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 130,
+			"name": "horn_screw.004"
+		},
+		{
+			"components": [
+				131,
+				4294967295,
+				74,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 131,
+			"name": "moving_part"
+		},
+		{
+			"components": [
+				132,
+				4294967295,
+				55,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 132,
+			"name": "rubber_moving_part"
+		},
+		{
+			"components": [
+				133,
+				4294967295,
+				56,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 133,
+			"name": "rubber_fix_part"
+		},
+		{
+			"components": [
+				134,
+				4294967295,
+				57,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 134,
+			"name": "rubber_support"
+		},
+		{
+			"components": [
+				135,
+				4294967295,
+				58,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 135,
+			"name": "screw.008"
+		},
+		{
+			"components": [
+				136,
+				4294967295,
+				59,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 136,
+			"name": "support"
+		},
+		{
+			"components": [
+				137,
+				4294967295,
+				60,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 137,
+			"name": "screw.005"
+		},
+		{
+			"components": [
+				138,
+				4294967295,
+				61,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 138,
+			"name": "wrist_hand.001"
+		},
+		{
+			"components": [
+				139,
+				4294967295,
+				62,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 139,
+			"name": "MX28_body.001"
+		},
+		{
+			"components": [
+				140,
+				4294967295,
+				63,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 140,
+			"name": "wrist_yaw_interface.001"
+		},
+		{
+			"components": [
+				141,
+				4294967295,
+				64,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 141,
+			"name": "screw.004"
+		},
+		{
+			"components": [
+				142,
+				4294967295,
+				34,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 142,
+			"name": "Horn_screw.003"
+		},
+		{
+			"components": [
+				143,
+				4294967295,
+				75,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 143,
+			"name": "MX64_free_horn.003"
+		},
+		{
+			"components": [
+				144,
+				4294967295,
+				65,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 144,
+			"name": "MX64_Horn.005"
+		},
+		{
+			"components": [
+				145,
+				4294967295,
+				36,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 145,
+			"name": "MX64_body.005"
+		},
+		{
+			"components": [
+				146,
+				4294967295,
+				36,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 146,
+			"name": "MX64_body.004"
+		},
+		{
+			"components": [
+				147,
+				4294967295,
+				78,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 147,
+			"name": "screws.004"
+		},
+		{
+			"components": [
+				148,
+				4294967295,
+				66,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 148,
+			"name": "upper_arm.001"
+		},
+		{
+			"components": [
+				149,
+				4294967295,
+				34,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 149,
+			"name": "horn_screw.002"
+		},
+		{
+			"components": [
+				150,
+				4294967295,
+				65,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 150,
+			"name": "MX64_Horn.004"
+		},
+		{
+			"components": [
+				151,
+				4294967295,
+				75,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 151,
+			"name": "MX64_free_horn.002"
+		},
+		{
+			"components": [
+				152,
+				4294967295,
+				65,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 152,
+			"name": "MX64_Horn.003"
+		},
+		{
+			"components": [
+				153,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 153,
+			"name": "arm_interface_right.001"
+		},
+		{
+			"components": [
+				154,
+				4294967295,
+				80,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 154,
+			"name": "screw.006"
+		},
+		{
+			"components": [
+				155,
+				4294967295,
+				67,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 155,
+			"name": "shoulder.001"
+		},
+		{
+			"components": [
+				156,
+				4294967295,
+				68,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 156,
+			"name": "MX106_body.001"
+		},
+		{
+			"components": [
+				157,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 157,
+			"name": "shoulder_right_interface"
+		},
+		{
+			"components": [
+				158,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 158,
+			"name": "chest_interface"
+		},
+		{
+			"components": [
+				159,
+				4294967295,
+				69,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 159,
+			"name": "DXL106_fixation"
+		},
+		{
+			"components": [
+				160,
+				4294967295,
+				70,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 160,
+			"name": "screw"
+		},
+		{
+			"components": [
+				161,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 161,
+			"name": "shoulder_pitch_position"
+		},
+		{
+			"components": [
+				162,
+				4294967295,
+				68,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 162,
+			"name": "MX106_body"
+		},
+		{
+			"components": [
+				163,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 163,
+			"name": "right_shoulder_pitch_joint"
+		},
+		{
+			"components": [
+				164,
+				4294967295,
+				32,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 164,
+			"name": "MX106_horn"
+		},
+		{
+			"components": [
+				165,
+				4294967295,
+				33,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 165,
+			"name": "MX106_horn_screw"
+		},
+		{
+			"components": [
+				166,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 166,
+			"name": "shoulder_interface"
+		},
+		{
+			"components": [
+				167,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 167,
+			"name": "chest_interface.001"
+		},
+		{
+			"components": [
+				168,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 168,
+			"name": "arm_interface_left"
+		},
+		{
+			"components": [
+				169,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 169,
+			"name": "arm_interface_right"
+		},
+		{
+			"components": [
+				170,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 170,
+			"name": "arm"
+		},
+		{
+			"components": [
+				171,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 171,
+			"name": "shoulder_roll_position"
+		},
+		{
+			"components": [
+				172,
+				4294967295,
+				34,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 172,
+			"name": "Horn_screw"
+		},
+		{
+			"components": [
+				173,
+				4294967295,
+				75,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 173,
+			"name": "MX64_free_horn"
+		},
+		{
+			"components": [
+				174,
+				4294967295,
+				65,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 174,
+			"name": "MX64_Horn"
+		},
+		{
+			"components": [
+				175,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 175,
+			"name": "right_shoulder_roll_joint"
+		},
+		{
+			"components": [
+				176,
+				4294967295,
+				35,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 176,
+			"name": "free_horn_screw"
+		},
+		{
+			"components": [
+				177,
+				4294967295,
+				36,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 177,
+			"name": "MX64_body"
+		},
+		{
+			"components": [
+				178,
+				4294967295,
+				37,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 178,
+			"name": "screws"
+		},
+		{
+			"components": [
+				179,
+				4294967295,
+				38,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 179,
+			"name": "Shouler2Arm"
+		},
+		{
+			"components": [
+				180,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 180,
+			"name": "upper_arm_interface"
+		},
+		{
+			"components": [
+				181,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 181,
+			"name": "shoulder_interface.002"
+		},
+		{
+			"components": [
+				182,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 182,
+			"name": "arm_yaw_position"
+		},
+		{
+			"components": [
+				183,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 183,
+			"name": "right_arm_yaw_joint"
+		},
+		{
+			"components": [
+				184,
+				4294967295,
+				39,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 184,
+			"name": "bearing_needles"
+		},
+		{
+			"components": [
+				185,
+				4294967295,
+				40,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 185,
+			"name": "bearing_plate"
+		},
+		{
+			"components": [
+				186,
+				4294967295,
+				41,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 186,
+			"name": "bearing_support"
+		},
+		{
+			"components": [
+				187,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 187,
+			"name": "elbow_pitch_position"
+		},
+		{
+			"components": [
+				188,
+				4294967295,
+				35,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 188,
+			"name": "free_horn_screw.001"
+		},
+		{
+			"components": [
+				189,
+				4294967295,
+				36,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 189,
+			"name": "MX64_body.001"
+		},
+		{
+			"components": [
+				190,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 190,
+			"name": "right_elbow_pitch_joint"
+		},
+		{
+			"components": [
+				191,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 191,
+			"name": "forearm_interface"
+		},
+		{
+			"components": [
+				192,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 192,
+			"name": "upper_arm_interface.001"
+		},
+		{
+			"components": [
+				193,
+				4294967295,
+				72,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 193,
+			"name": "assembly_screw"
+		},
+		{
+			"components": [
+				194,
+				4294967295,
+				42,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 194,
+			"name": "bearing_needles.001"
+		},
+		{
+			"components": [
+				195,
+				4294967295,
+				43,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 195,
+			"name": "bearing_support.001"
+		},
+		{
+			"components": [
+				196,
+				4294967295,
+				44,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 196,
+			"name": "forearm"
+		},
+		{
+			"components": [
+				197,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 197,
+			"name": "forearm_yaw_position"
+		},
+		{
+			"components": [
+				198,
+				4294967295,
+				45,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 198,
+			"name": "AX_body"
+		},
+		{
+			"components": [
+				199,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 199,
+			"name": "right_forearm_yaw_joint"
+		},
+		{
+			"components": [
+				200,
+				4294967295,
+				46,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 200,
+			"name": "AX_horn"
+		},
+		{
+			"components": [
+				201,
+				4294967295,
+				47,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 201,
+			"name": "horn_screw.001"
+		},
+		{
+			"components": [
+				202,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 202,
+			"name": "wrist_interface"
+		},
+		{
+			"components": [
+				203,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 203,
+			"name": "forearm_interface.001"
+		},
+		{
+			"components": [
+				204,
+				4294967295,
+				48,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 204,
+			"name": "screws.002"
+		},
+		{
+			"components": [
+				205,
+				4294967295,
+				49,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 205,
+			"name": "wrist"
+		},
+		{
+			"components": [
+				206,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 206,
+			"name": "wrist_pitch_position"
+		},
+		{
+			"components": [
+				207,
+				4294967295,
+				50,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 207,
+			"name": "free_horn_screw.002"
+		},
+		{
+			"components": [
+				208,
+				4294967295,
+				62,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 208,
+			"name": "MX28_body"
+		},
+		{
+			"components": [
+				209,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 209,
+			"name": "right_wrist_pitch_joint"
+		},
+		{
+			"components": [
+				210,
+				4294967295,
+				51,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 210,
+			"name": "MX28_free_horn"
+		},
+		{
+			"components": [
+				211,
+				4294967295,
+				52,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 211,
+			"name": "MX28_horn"
+		},
+		{
+			"components": [
+				212,
+				4294967295,
+				53,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 212,
+			"name": "MX28_horn_screw"
+		},
+		{
+			"components": [
+				213,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 213,
+			"name": "wristhand_interface"
+		},
+		{
+			"components": [
+				214,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 214,
+			"name": "wrist_interface.001"
+		},
+		{
+			"components": [
+				215,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 215,
+			"name": "hand_interface"
+		},
+		{
+			"components": [
+				216,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 216,
+			"name": "wrist_interface.005"
+		},
+		{
+			"components": [
+				217,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 217,
+			"name": "wrist_roll_position.001"
+		},
+		{
+			"components": [
+				218,
+				4294967295,
+				46,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 218,
+			"name": "AX_horn.005"
+		},
+		{
+			"components": [
+				219,
+				4294967295,
+				47,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 219,
+			"name": "horn_screw.007"
+		},
+		{
+			"components": [
+				220,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 220,
+			"name": "right_wrist_roll_joint"
+		},
+		{
+			"components": [
+				221,
+				4294967295,
+				45,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 221,
+			"name": "AX_body.004"
+		},
+		{
+			"components": [
+				222,
+				4294967295,
+				45,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 222,
+			"name": "AX_body.005"
+		},
+		{
+			"components": [
+				223,
+				4294967295,
+				46,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 223,
+			"name": "AX_horn.004"
+		},
+		{
+			"components": [
+				224,
+				4294967295,
+				79,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 224,
+			"name": "fix_finger.001"
+		},
+		{
+			"components": [
+				225,
+				4294967295,
+				54,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 225,
+			"name": "force_barre.001"
+		},
+		{
+			"components": [
+				226,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 226,
+			"name": "gripper_motor_position.001"
+		},
+		{
+			"components": [
+				227,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 227,
+			"name": "right_gripper_joint"
+		},
+		{
+			"components": [
+				228,
+				4294967295,
+				73,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 228,
+			"name": "gripper_screw.001"
+		},
+		{
+			"components": [
+				229,
+				4294967295,
+				47,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 229,
+			"name": "horn_screw.006"
+		},
+		{
+			"components": [
+				230,
+				4294967295,
+				74,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 230,
+			"name": "moving_part.001"
+		},
+		{
+			"components": [
+				231,
+				4294967295,
+				55,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 231,
+			"name": "rubber_moving_part.001"
+		},
+		{
+			"components": [
+				232,
+				4294967295,
+				56,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 232,
+			"name": "rubber_fix_part.001"
+		},
+		{
+			"components": [
+				233,
+				4294967295,
+				57,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 233,
+			"name": "rubber_support.001"
+		},
+		{
+			"components": [
+				234,
+				4294967295,
+				58,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 234,
+			"name": "screw.009"
+		},
+		{
+			"components": [
+				235,
+				4294967295,
+				59,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 235,
+			"name": "support.001"
+		},
+		{
+			"components": [
+				236,
+				4294967295,
+				60,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 236,
+			"name": "screw.003"
+		},
+		{
+			"components": [
+				237,
+				4294967295,
+				61,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 237,
+			"name": "wrist_hand"
+		},
+		{
+			"components": [
+				238,
+				4294967295,
+				63,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 238,
+			"name": "wrist_yaw_interface"
+		},
+		{
+			"components": [
+				239,
+				4294967295,
+				64,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 239,
+			"name": "screw.002"
+		},
+		{
+			"components": [
+				240,
+				4294967295,
+				34,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 240,
+			"name": "Horn_screw.001"
+		},
+		{
+			"components": [
+				241,
+				4294967295,
+				75,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 241,
+			"name": "MX64_free_horn.001"
+		},
+		{
+			"components": [
+				242,
+				4294967295,
+				65,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 242,
+			"name": "MX64_Horn.001"
+		},
+		{
+			"components": [
+				243,
+				4294967295,
+				36,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 243,
+			"name": "MX64_body.002"
+		},
+		{
+			"components": [
+				244,
+				4294967295,
+				78,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 244,
+			"name": "screws.001"
+		},
+		{
+			"components": [
+				245,
+				4294967295,
+				66,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 245,
+			"name": "upper_arm"
+		},
+		{
+			"components": [
+				246,
+				4294967295,
+				34,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 246,
+			"name": "horn_screw"
+		},
+		{
+			"components": [
+				247,
+				4294967295,
+				65,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 247,
+			"name": "MX64_Horn.002"
+		},
+		{
+			"components": [
+				248,
+				4294967295,
+				80,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 248,
+			"name": "screw.001"
+		},
+		{
+			"components": [
+				249,
+				4294967295,
+				67,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 249,
+			"name": "shoulder"
+		},
+		{
+			"components": [
+				250,
+				4294967295,
+				82,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 250,
+			"name": "shoulder_pitch_right"
+		},
+		{
+			"components": [
+				251,
+				4294967295,
+				4294967295,
+				0,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 251,
+			"name": "Light"
+		},
+		{
+			"components": [
+				252,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 252,
+			"name": "origin"
+		},
+		{
+			"components": [
+				253,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 253,
+			"name": "right_hand_physic_pos"
+		},
+		{
+			"components": [
+				254,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 254,
+			"name": "right_gripper_physic_pos"
+		},
+		{
+			"components": [
+				255,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 255,
+			"name": "right_fix_finger_physic_pos"
+		},
+		{
+			"components": [
+				256,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 256,
+			"name": "right_wrist_physic_pos"
+		},
+		{
+			"components": [
+				257,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 257,
+			"instance": 0,
+			"name": "grid"
+		},
+		{
+			"components": [
+				258,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 258,
+			"instance": 1,
+			"name": "calibration"
+		},
+		{
+			"components": [
+				260,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 263,
+			"instance": 2,
+			"name": "grid"
+		},
+		{
+			"components": [
+				259,
+				4294967295,
+				4294967295,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 265,
+			"instance": 3,
+			"name": "grid"
+		}
+	],
+	"objects": [
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "galvanized_steel"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh45_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "aluminium_anodized_black"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.06132156774401665,
+								0.06568585336208344,
+								0.06941298395395279,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.6000000238418579,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/Cylinder.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh58_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic_black_matte"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.008000848814845085,
+								0.008000848814845085,
+								0.008000848814845085,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.800000011920929,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh704_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic_black_matte"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.008000848814845085,
+								0.008000848814845085,
+								0.008000848814845085,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.800000011920929,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh795_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh886_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic_black_matte"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.008000848814845085,
+								0.008000848814845085,
+								0.008000848814845085,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.800000011920929,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh760_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic_black_matte"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.008000848814845085,
+								0.008000848814845085,
+								0.008000848814845085,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.800000011920929,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh826_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh1.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Pollen_dark_blue_color"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.04091517627239227,
+								0.13013653457164764,
+								0.21952620148658752,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1275_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Pollen_light_blue_color"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.11697068810462952,
+								0.2158605307340622,
+								0.5149175524711609,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh13_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Pollen_color"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.18447503447532654,
+								0.4969329833984375,
+								0.4851500391960144,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1284_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Pollen_red_color"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.8796225786209106,
+								0.24620138108730316,
+								0.21223080158233643,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh4_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic_diffuse_white"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1019_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Pollen_yellow_color"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.9822507500648499,
+								0.672443151473999,
+								0.2501583993434906,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh3_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh165_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh927_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh125_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic_glossy_black"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.011453784070909023,
+								0.011453784070909023,
+								0.011453784070909023,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.30000001192092896,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh15_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh71_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "aluminium"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5857862234115601,
+								0.6241942644119263,
+								0.6561949849128723,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.4318181872367859,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh2.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic_black_matte"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.008000848814845085,
+								0.008000848814845085,
+								0.008000848814845085,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.800000011920929,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/ID519.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "lens_body"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.028880145400762558,
+								0.030783500522375107,
+								0.032714635133743286,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh3.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "iris_color"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.3272727131843567,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1283_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "glass"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.10000000149011612,
+								0.8999999761581421,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh23_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "iris_color"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.3272727131843567,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh76_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "glass"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.10000000149011612,
+								0.8999999761581421,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh20_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "fabric"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"textures": [
+						{
+							"name": "uBaseOpacityMap",
+							"path": "reachy/stripes_color.png",
+							"stage": 0
+						}
+					],
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh696_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_raw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.06941298395395279,
+								0.06941298395395279,
+								0.06941298395395279,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh660_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh45_mesh1.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh659_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Dynamixel_horn"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.8886450529098511,
+								0.8616728782653809,
+								0.7228937149047852,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.7181817889213562,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh447_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh289_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh691_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh709_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Dynamixel_body"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.00922127440571785,
+								0.00922127440571785,
+								0.00922127440571785,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.30000001192092896,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh351_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh4.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh5.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "bearing_needle"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.6235290169715881,
+								0.6666669845581055,
+								0.7019609808921814,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.0,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh4_mesh1.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "bearing_support"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.35984188318252563,
+								0.38855475187301636,
+								0.41088107228279114,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh6.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "bearing_support"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.35984188318252563,
+								0.38855475187301636,
+								0.41088107228279114,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh9_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "bearing_needle"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.6235290169715881,
+								0.6666669845581055,
+								0.7019609808921814,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.0,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh4_mesh2.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "bearing_support"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.35984188318252563,
+								0.38855475187301636,
+								0.41088107228279114,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh9_mesh1.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh985_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Dynamixel_body"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.00922127440571785,
+								0.00922127440571785,
+								0.00922127440571785,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.30000001192092896,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh7.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Dynamixel_body"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.00922127440571785,
+								0.00922127440571785,
+								0.00922127440571785,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.30000001192092896,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh786_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh754_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh254_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh8.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh48_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "aluminium"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5857862234115601,
+								0.6241942644119263,
+								0.6561949849128723,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.4318181872367859,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh9.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Dynamixel_horn"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.8886450529098511,
+								0.8616728782653809,
+								0.7228937149047852,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.7181817889213562,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh407_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh312_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "aluminium"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5857862234115601,
+								0.6241942644119263,
+								0.6561949849128723,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.4318181872367859,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh79_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "rubber_black"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.036968447268009186,
+								0.036968447268009186,
+								0.036968447268009186,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1028_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "rubber_black"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.036968447268009186,
+								0.036968447268009186,
+								0.036968447268009186,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh52_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "rubber_black"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.036968447268009186,
+								0.036968447268009186,
+								0.036968447268009186,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1064_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh11.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1209_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh12.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh87_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Dynamixel_body"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.00922127440571785,
+								0.00922127440571785,
+								0.00922127440571785,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.30000001192092896,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh13.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh342_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh14.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Dynamixel_horn"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.8886450529098511,
+								0.8616728782653809,
+								0.7228937149047852,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.7181817889213562,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh179_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh16.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh46_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "Dynamixel_body"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.00922127440571785,
+								0.00922127440571785,
+								0.00922127440571785,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.30000001192092896,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh18.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_raw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.06941298395395279,
+								0.06941298395395279,
+								0.06941298395395279,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh22_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh258_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic_black_matte"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.008000848814845085,
+								0.008000848814845085,
+								0.008000848814845085,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.800000011920929,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh970_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh21_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh10.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1208_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "aluminium"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5857862234115601,
+								0.6241942644119263,
+								0.6561949849128723,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.4318181872367859,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh727_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic_black_matte"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.008000848814845085,
+								0.008000848814845085,
+								0.008000848814845085,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.800000011920929,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/ID735.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1295_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh15.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh1082_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "metal_screw"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.5532597899436951,
+								0.5926752686500549,
+								0.6285046339035034,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.29999998211860657,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh0_mesh17.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "lens_body"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.028880145400762558,
+								0.030783500522375107,
+								0.032714635133743286,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh28_mesh.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "MJF_painted"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "disabled",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.8999999761581421,
+								0.0,
+								-1.0
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "reachy/mesh92_mesh.geo"
+		}
+	],
+	"transforms": [
+		{
+			"parent": null,
+			"pos": [
+				2.176654815673828,
+				0.28520405292510986,
+				-1.382704257965088
+			],
+			"rot": [
+				-84.35986328125,
+				-55.49441146850586,
+				0.0021370439790189266
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				90.0,
+				-0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 252,
+			"pos": [
+				0.0,
+				0.9922000169754028,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				-0.07999999821186066,
+				-0.02199999988079071,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				179.99989318847656,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 3,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 4,
+			"pos": [
+				-0.006181091070175171,
+				0.0009118672460317612,
+				-0.00020276287978049368
+			],
+			"rot": [
+				-0.0,
+				89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 4,
+			"pos": [
+				0.035818904638290405,
+				0.029777178540825844,
+				-0.0002027628943324089
+			],
+			"rot": [
+				0.0,
+				179.99989318847656,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 6,
+			"pos": [
+				0.0,
+				-0.5,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				0.019999999552965164,
+				0.5,
+				0.019999999552965164
+			]
+		},
+		{
+			"parent": 4,
+			"pos": [
+				-0.018131084740161896,
+				-0.02708813175559044,
+				-0.04070276394486427
+			],
+			"rot": [
+				-3.7567172057606513e-06,
+				179.99989318847656,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				-0.07382801175117493,
+				0.03230142593383789,
+				-0.04556410759687424
+			],
+			"rot": [
+				34.999996185302734,
+				89.99994659423828,
+				-4.169060048297979e-06
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				-0.07382801175117493,
+				0.03230142593383789,
+				-0.03540000319480896
+			],
+			"rot": [
+				34.999996185302734,
+				89.99994659423828,
+				-4.169060048297979e-06
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				-0.0717308446764946,
+				0.031809594482183456,
+				0.015449997037649155
+			],
+			"rot": [
+				34.999996185302734,
+				89.99994659423828,
+				-4.169060048297979e-06
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				-0.07138669490814209,
+				0.03230108693242073,
+				0.0326208770275116
+			],
+			"rot": [
+				34.999996185302734,
+				89.99994659423828,
+				89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				-0.06946160644292831,
+				0.03156350925564766,
+				-0.02240000292658806
+			],
+			"rot": [
+				34.9999885559082,
+				89.99994659423828,
+				-90.00000762939453
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				-0.07138669490814209,
+				0.03230108693242073,
+				0.0450499951839447
+			],
+			"rot": [
+				34.9999885559082,
+				89.99994659423828,
+				-90.00000762939453
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 19,
+			"pos": [
+				0.0014400873333215714,
+				-0.016052860766649246,
+				-0.00930534116923809
+			],
+			"rot": [
+				7.671285629272461,
+				-94.47811889648438,
+				119.50054931640625
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 19,
+			"pos": [
+				0.0014400873333215714,
+				-0.016052860766649246,
+				-0.00930534116923809
+			],
+			"rot": [
+				7.671285629272461,
+				-94.47811889648438,
+				119.50054931640625
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 19,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 19,
+			"pos": [
+				0.0014400873333215714,
+				-0.016052860766649246,
+				-0.00930534116923809
+			],
+			"rot": [
+				7.671285629272461,
+				-94.47811889648438,
+				119.50054931640625
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 19,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 19,
+			"pos": [
+				0.0014400866348296404,
+				-0.016052860766649246,
+				0.00930534116923809
+			],
+			"rot": [
+				7.671266078948975,
+				-85.52183532714844,
+				-119.50054931640625
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.014999999664723873,
+				0.0949999988079071,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				-0.0,
+				-9.999996185302734
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 26,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 27,
+			"pos": [
+				0.01850000023841858,
+				0.061000000685453415,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 27,
+			"pos": [
+				0.017999999225139618,
+				0.061000000685453415,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 27,
+			"pos": [
+				-0.031140292063355446,
+				0.10663136839866638,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-0.0,
+				59.84514617919922
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 27,
+			"pos": [
+				-0.05244830623269081,
+				0.08671539276838303,
+				0.057151611894369125
+			],
+			"rot": [
+				-4.679401397705078,
+				55.27451705932617,
+				60.78767776489258
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 31,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 32,
+			"pos": [
+				0.0013784104958176613,
+				0.010650107637047768,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				-0.0,
+				-58.000003814697266
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 32,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 32,
+			"pos": [
+				-0.0022499999031424522,
+				0.0,
+				-0.003897114424034953
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 32,
+			"pos": [
+				-0.0022499999031424522,
+				0.0,
+				0.003897114424034953
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 32,
+			"pos": [
+				0.0044999998062849045,
+				0.0,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 27,
+			"pos": [
+				0.013059999793767929,
+				0.06099603697657585,
+				0.036252111196517944
+			],
+			"rot": [
+				2.504477834008867e-06,
+				179.99989318847656,
+				90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 38,
+			"pos": [
+				0.0,
+				0.019999999552965164,
+				-0.0
+			],
+			"rot": [
+				2.504477834008867e-06,
+				90.0,
+				179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 39,
+			"pos": [
+				1.5130687813780241e-09,
+				0.0,
+				0.0
+			],
+			"rot": [
+				89.99994659423828,
+				0.0,
+				-1.6284441243380465e-12
+			],
+			"scl": [
+				0.9999999403953552,
+				1.0,
+				1.0000001192092896
+			]
+		},
+		{
+			"parent": 38,
+			"pos": [
+				0.0024086744524538517,
+				-0.0010000020265579224,
+				-9.208545088768005e-05
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 38,
+			"pos": [
+				0.0024086744524538517,
+				-0.0010000020265579224,
+				-9.208545088768005e-05
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 38,
+			"pos": [
+				3.973953425884247e-06,
+				0.022939998656511307,
+				2.115964889526367e-06
+			],
+			"rot": [
+				90.0,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 38,
+			"pos": [
+				3.9711594581604e-06,
+				0.00493999570608139,
+				0.036252111196517944
+			],
+			"rot": [
+				90.0,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 38,
+			"pos": [
+				3.983266651630402e-06,
+				0.022899355739355087,
+				2.115964889526367e-06
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 27,
+			"pos": [
+				-0.05244830623269081,
+				0.08671539276838303,
+				-0.057151611894369125
+			],
+			"rot": [
+				4.679401397705078,
+				-55.27451705932617,
+				60.78767776489258
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 46,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 47,
+			"pos": [
+				0.0013784104958176613,
+				0.010650107637047768,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				-0.0,
+				-58.000003814697266
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 47,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 47,
+			"pos": [
+				0.0044999998062849045,
+				0.0,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 47,
+			"pos": [
+				-0.0022499999031424522,
+				0.0,
+				0.003897114424034953
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 47,
+			"pos": [
+				-0.0022499999031424522,
+				0.0,
+				-0.003897114424034953
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 27,
+			"pos": [
+				-0.0014400000218302011,
+				0.06099603697657585,
+				-0.03624789044260979
+			],
+			"rot": [
+				2.504477834008867e-06,
+				179.99989318847656,
+				90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 53,
+			"pos": [
+				3.9692968130111694e-06,
+				0.03631500154733658,
+				2.1010637283325195e-06
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 53,
+			"pos": [
+				3.960449248552322e-06,
+				0.019440002739429474,
+				-0.03624789044260979
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 53,
+			"pos": [
+				3.966502845287323e-06,
+				0.03581500053405762,
+				2.1010637283325195e-06
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 53,
+			"pos": [
+				0.002408659551292658,
+				-0.0010000001639127731,
+				-9.209662675857544e-05
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 53,
+			"pos": [
+				0.002408659551292658,
+				-0.0010000001639127731,
+				-9.209662675857544e-05
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 53,
+			"pos": [
+				0.0,
+				0.009999999776482582,
+				-0.0
+			],
+			"rot": [
+				2.504477834008867e-06,
+				90.0,
+				179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 59,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				90.0,
+				-0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				-0.0002734168665483594,
+				0.0,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.0,
+				0.0,
+				0.12399999797344208
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 63,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 64,
+			"pos": [
+				-0.035999998450279236,
+				0.0,
+				-0.12399999797344208
+			],
+			"rot": [
+				-0.0,
+				90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 64,
+			"pos": [
+				0.0,
+				0.0,
+				-0.12399999797344208
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 64,
+			"pos": [
+				-0.03999999910593033,
+				-0.01730000041425228,
+				-0.023099999874830246
+			],
+			"rot": [
+				-89.99994659423828,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 64,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				90.0,
+				-0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 68,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 69,
+			"pos": [
+				0.0,
+				0.023499999195337296,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 69,
+			"pos": [
+				0.0,
+				0.030799999833106995,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 69,
+			"pos": [
+				0.0,
+				0.026000000536441803,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 72,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 73,
+			"pos": [
+				0.0,
+				0.03999999165534973,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				89.99994659423828,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 74,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 75,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 76,
+			"pos": [
+				0.0,
+				-0.028300000354647636,
+				-0.0
+			],
+			"rot": [
+				-6.261194812395843e-06,
+				90.00000762939453,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 76,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 78,
+			"pos": [
+				0.0,
+				0.02606000006198883,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 78,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 78,
+			"pos": [
+				-0.04530000314116478,
+				0.0214999970048666,
+				0.011000007390975952
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 78,
+			"pos": [
+				-0.2799999713897705,
+				0.0,
+				-0.0
+			],
+			"rot": [
+				-90.0,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 78,
+			"pos": [
+				-0.05210000276565552,
+				0.0,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 83,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 84,
+			"pos": [
+				0.0,
+				-0.023499993607401848,
+				-0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 85,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 86,
+			"pos": [
+				0.0,
+				-0.023499999195337296,
+				-0.0
+			],
+			"rot": [
+				-1.252237893822894e-06,
+				59.99996566772461,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 86,
+			"pos": [
+				0.0,
+				-0.023499999195337296,
+				-0.0
+			],
+			"rot": [
+				-5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 86,
+			"pos": [
+				0.0,
+				-0.023499999195337296,
+				-0.0
+			],
+			"rot": [
+				-5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 86,
+			"pos": [
+				0.0,
+				0.20440000295639038,
+				-0.0
+			],
+			"rot": [
+				-3.4150916690123267e-06,
+				89.99994659423828,
+				90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 90,
+			"pos": [
+				0.0,
+				-0.02606000006198883,
+				-0.0
+			],
+			"rot": [
+				-1.2522389170044335e-06,
+				-90.00000762939453,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 90,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 92,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 93,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 94,
+			"pos": [
+				0.0,
+				0.010999999940395355,
+				0.02800000086426735
+			],
+			"rot": [
+				89.99994659423828,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 94,
+			"pos": [
+				0.0,
+				-0.1014999970793724,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-45.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 94,
+			"pos": [
+				0.0,
+				-0.1014999970793724,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 94,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 94,
+			"pos": [
+				0.0,
+				-0.07900000363588333,
+				-0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 99,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 99,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 101,
+			"pos": [
+				0.0,
+				0.01916000060737133,
+				-0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 101,
+			"pos": [
+				0.0,
+				0.02201000042259693,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 101,
+			"pos": [
+				0.0,
+				0.020999999716877937,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 104,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 105,
+			"pos": [
+				-0.015000013634562492,
+				0.13749247789382935,
+				0.0195000022649765
+			],
+			"rot": [
+				5.1226397772552446e-06,
+				-90.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 105,
+			"pos": [
+				0.0,
+				-0.10000750422477722,
+				-0.0
+			],
+			"rot": [
+				2.504477834008867e-06,
+				-90.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 105,
+			"pos": [
+				0.0,
+				0.1499999761581421,
+				-0.0
+			],
+			"rot": [
+				-6.8301833380246535e-06,
+				89.99994659423828,
+				90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 108,
+			"pos": [
+				0.0,
+				-0.02175000309944153,
+				-0.0
+			],
+			"rot": [
+				-4.0711065161375126e-13,
+				-90.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 108,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 110,
+			"pos": [
+				0.0,
+				-0.020500004291534424,
+				-0.0
+			],
+			"rot": [
+				-4.0711065161375126e-13,
+				-90.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 110,
+			"pos": [
+				0.0,
+				0.01850000023841858,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 110,
+			"pos": [
+				0.0,
+				0.025849997997283936,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 110,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 114,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 115,
+			"pos": [
+				0.03250002861022949,
+				0.0,
+				-0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				16.348636627197266,
+				163.65127563476563
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 116,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 117,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 118,
+			"pos": [
+				0.0,
+				-0.01916000060737133,
+				-0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 118,
+			"pos": [
+				0.0,
+				-0.02201000042259693,
+				-0.0
+			],
+			"rot": [
+				-5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 118,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 121,
+			"pos": [
+				-0.04000002145767212,
+				0.0,
+				0.03700000047683716
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-89.99994659423828
+			],
+			"scl": [
+				-1.0,
+				-1.0,
+				-1.0
+			]
+		},
+		{
+			"parent": 121,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-18.434947967529297,
+				-71.56504821777344
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 121,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				-0.9999998807907104,
+				-1.0,
+				-0.9999998807907104
+			]
+		},
+		{
+			"parent": 121,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				-0.9999998807907104,
+				-1.0,
+				-0.9999998807907104
+			]
+		},
+		{
+			"parent": 121,
+			"pos": [
+				-0.04000002145767212,
+				0.0,
+				0.03700000047683716
+			],
+			"rot": [
+				0.0,
+				0.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 126,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 127,
+			"pos": [
+				0.0,
+				0.01915999874472618,
+				-0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-180.0,
+				0.0
+			],
+			"scl": [
+				-0.9999999403953552,
+				-0.9999998211860657,
+				-0.9999998211860657
+			]
+		},
+		{
+			"parent": 127,
+			"pos": [
+				0.0,
+				0.025599997490644455,
+				-0.008000001311302185
+			],
+			"rot": [
+				1.2132854195967663e-20,
+				90.00000762939453,
+				180.0
+			],
+			"scl": [
+				-0.9999998211860657,
+				-0.9999999403953552,
+				-0.9999998211860657
+			]
+		},
+		{
+			"parent": 127,
+			"pos": [
+				0.0,
+				0.022009998559951782,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				-0.0,
+				180.0
+			],
+			"scl": [
+				-1.0,
+				-1.0,
+				-1.0
+			]
+		},
+		{
+			"parent": 127,
+			"pos": [
+				-0.04000003635883331,
+				0.0,
+				-0.03700001537799835
+			],
+			"rot": [
+				1.2132854195967663e-20,
+				90.00000762939453,
+				180.0
+			],
+			"scl": [
+				-0.9999998211860657,
+				-0.9999999403953552,
+				-0.9999998211860657
+			]
+		},
+		{
+			"parent": 127,
+			"pos": [
+				-0.04000003635883331,
+				0.0,
+				-0.03700001537799835
+			],
+			"rot": [
+				1.2132854195967663e-20,
+				90.00000762939453,
+				180.0
+			],
+			"scl": [
+				-0.9999998211860657,
+				-0.9999999403953552,
+				-0.9999998211860657
+			]
+		},
+		{
+			"parent": 121,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				-0.9999998807907104,
+				-1.0,
+				-0.9999998807907104
+			]
+		},
+		{
+			"parent": 121,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				-0.9999998807907104,
+				-1.0,
+				-0.9999998807907104
+			]
+		},
+		{
+			"parent": 121,
+			"pos": [
+				-0.017499983310699463,
+				0.01979999803006649,
+				0.023329660296440125
+			],
+			"rot": [
+				-2.5044776066351915e-06,
+				89.99994659423828,
+				-179.99989318847656
+			],
+			"scl": [
+				-1.000000238418579,
+				-1.0000005960464478,
+				-1.000000238418579
+			]
+		},
+		{
+			"parent": 121,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				0.0
+			],
+			"scl": [
+				-0.9999998807907104,
+				-1.0,
+				-0.9999998807907104
+			]
+		},
+		{
+			"parent": 115,
+			"pos": [
+				0.0,
+				0.024099111557006836,
+				0.007899200543761253
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 115,
+			"pos": [
+				-0.2499999701976776,
+				0.0,
+				-0.00010081191430799663
+			],
+			"rot": [
+				-6.353574008244323e-06,
+				179.99989318847656,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 108,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				90.0,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 105,
+			"pos": [
+				0.0,
+				-0.09999999403953552,
+				-0.0
+			],
+			"rot": [
+				2.504477834008867e-06,
+				-90.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 94,
+			"pos": [
+				-0.014499999582767487,
+				-0.09759999811649323,
+				0.013500000350177288
+			],
+			"rot": [
+				0.0,
+				0.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 92,
+			"pos": [
+				0.0,
+				0.028300000354647636,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 92,
+			"pos": [
+				0.0,
+				-0.023259999230504036,
+				-0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 92,
+			"pos": [
+				0.0,
+				0.020999999716877937,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 90,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 86,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 86,
+			"pos": [
+				0.010999999940395355,
+				0.1590999960899353,
+				-0.013699978590011597
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 86,
+			"pos": [
+				0.0,
+				0.20440000295639038,
+				-0.0
+			],
+			"rot": [
+				-2.5044776066351915e-06,
+				-89.99994659423828,
+				179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 84,
+			"pos": [
+				0.0,
+				0.004800008609890938,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 84,
+			"pos": [
+				0.0,
+				-0.0024999959859997034,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 76,
+			"pos": [
+				0.0,
+				0.023259999230504036,
+				-0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-18.434947967529297,
+				71.56504821777344
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 76,
+			"pos": [
+				0.0,
+				-0.020999999716877937,
+				-0.0
+			],
+			"rot": [
+				-6.261194812395843e-06,
+				90.00000762939453,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 73,
+			"pos": [
+				0.0,
+				0.03999999165534973,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 73,
+			"pos": [
+				-0.007778173312544823,
+				0.032221823930740356,
+				-0.02800000086426735
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 73,
+			"pos": [
+				0.2800000011920929,
+				0.040000006556510925,
+				-0.0
+			],
+			"rot": [
+				-6.353574008244323e-06,
+				179.99989318847656,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 68,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-135.0,
+				135.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 2,
+			"pos": [
+				0.0,
+				0.0,
+				-0.12399999797344208
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 157,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 158,
+			"pos": [
+				0.0,
+				0.0,
+				0.12399999797344208
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 158,
+			"pos": [
+				-0.017999999225139618,
+				-0.01730000041425228,
+				0.023099999874830246
+			],
+			"rot": [
+				89.99994659423828,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 158,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-90.0,
+				-0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 161,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				90.0,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 161,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 163,
+			"pos": [
+				0.0,
+				0.023499999195337296,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 163,
+			"pos": [
+				0.0,
+				0.030799999833106995,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 163,
+			"pos": [
+				0.0,
+				0.026000000536441803,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 166,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 167,
+			"pos": [
+				0.0,
+				0.03999999165534973,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				89.99994659423828,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 167,
+			"pos": [
+				0.0,
+				0.03999999165534973,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 169,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 170,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 171,
+			"pos": [
+				0.0,
+				-0.028300000354647636,
+				-0.0
+			],
+			"rot": [
+				-6.261194812395843e-06,
+				90.00000762939453,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 171,
+			"pos": [
+				0.0,
+				0.023259999230504036,
+				-0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-18.434947967529297,
+				71.56504821777344
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 171,
+			"pos": [
+				0.0,
+				-0.020999999716877937,
+				-0.0
+			],
+			"rot": [
+				-6.261194812395843e-06,
+				90.00000762939453,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 171,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				90.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 175,
+			"pos": [
+				0.0,
+				0.02606000006198883,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 175,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 175,
+			"pos": [
+				-0.04530000314116478,
+				0.0214999970048666,
+				0.011000007390975952
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 175,
+			"pos": [
+				-0.2799999713897705,
+				0.0,
+				-0.0
+			],
+			"rot": [
+				-90.0,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 175,
+			"pos": [
+				-0.05210000276565552,
+				0.0,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 180,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 181,
+			"pos": [
+				0.0,
+				-0.023499993607401848,
+				-0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 182,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 183,
+			"pos": [
+				0.0,
+				-0.023500002920627594,
+				-0.0
+			],
+			"rot": [
+				-1.252237893822894e-06,
+				59.99996566772461,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 183,
+			"pos": [
+				0.0,
+				-0.023500002920627594,
+				-0.0
+			],
+			"rot": [
+				-5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 183,
+			"pos": [
+				0.0,
+				-0.023500002920627594,
+				-0.0
+			],
+			"rot": [
+				-5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 183,
+			"pos": [
+				0.0,
+				0.20440000295639038,
+				-0.0
+			],
+			"rot": [
+				-3.4150916690123267e-06,
+				89.99994659423828,
+				90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 187,
+			"pos": [
+				0.0,
+				-0.02606000006198883,
+				-0.0
+			],
+			"rot": [
+				-1.2522389170044335e-06,
+				-90.00000762939453,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 187,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 187,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 190,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 191,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 192,
+			"pos": [
+				0.0,
+				0.010999999940395355,
+				0.02800000086426735
+			],
+			"rot": [
+				89.99994659423828,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 192,
+			"pos": [
+				0.0,
+				-0.1014999970793724,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				-45.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 192,
+			"pos": [
+				0.0,
+				-0.1014999970793724,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 192,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 192,
+			"pos": [
+				0.0,
+				-0.07900000363588333,
+				-0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 197,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 197,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 199,
+			"pos": [
+				0.0,
+				0.01916000060737133,
+				-0.0
+			],
+			"rot": [
+				89.99994659423828,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 199,
+			"pos": [
+				0.0,
+				0.02201000042259693,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 199,
+			"pos": [
+				0.0,
+				0.020999999716877937,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 202,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 203,
+			"pos": [
+				-0.015000013634562492,
+				0.13749247789382935,
+				0.0195000022649765
+			],
+			"rot": [
+				5.1226397772552446e-06,
+				-90.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 203,
+			"pos": [
+				0.0,
+				-0.10000750422477722,
+				-0.0
+			],
+			"rot": [
+				2.504477834008867e-06,
+				-90.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 203,
+			"pos": [
+				0.0,
+				0.1499999761581421,
+				-0.0
+			],
+			"rot": [
+				-6.8301833380246535e-06,
+				89.99994659423828,
+				90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 206,
+			"pos": [
+				0.0,
+				-0.02175000309944153,
+				-0.0
+			],
+			"rot": [
+				-1.22133249694234e-12,
+				-90.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 206,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				90.0,
+				-0.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 206,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 209,
+			"pos": [
+				0.0,
+				-0.020500004291534424,
+				-0.0
+			],
+			"rot": [
+				-1.22133249694234e-12,
+				-90.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 209,
+			"pos": [
+				0.0,
+				0.01850000023841858,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 209,
+			"pos": [
+				0.0,
+				0.025849997997283936,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 209,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 213,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 214,
+			"pos": [
+				0.03250005468726158,
+				0.0,
+				-0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				16.348636627197266,
+				163.65127563476563
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 215,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 216,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 217,
+			"pos": [
+				0.0,
+				-0.01916000060737133,
+				-0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 217,
+			"pos": [
+				0.0,
+				-0.02201000042259693,
+				-0.0
+			],
+			"rot": [
+				-5.008955668017734e-06,
+				-180.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 217,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				-0.04000004008412361,
+				0.0,
+				-0.03700000047683716
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-18.434947967529297,
+				-71.56504821777344
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				-0.04000004008412361,
+				-0.01915999874472618,
+				-0.03700000047683716
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				-2.504477834008867e-06,
+				90.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				-2.504477834008867e-06,
+				90.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				-0.04000004008412361,
+				0.0,
+				-0.03700000047683716
+			],
+			"rot": [
+				0.0,
+				0.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 226,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 227,
+			"pos": [
+				0.0,
+				0.025599999353289604,
+				0.008000001311302185
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 227,
+			"pos": [
+				0.0,
+				0.02201000042259693,
+				-0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 227,
+			"pos": [
+				-0.04000003635883331,
+				0.0,
+				0.03700001537799835
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 227,
+			"pos": [
+				-0.04000003635883331,
+				0.0,
+				0.03700001537799835
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				-2.504477834008867e-06,
+				90.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				-2.504477834008867e-06,
+				90.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				-0.017500007525086403,
+				0.01980000175535679,
+				-0.023499995470046997
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				0.0,
+				0.00020000000949949026,
+				-0.0
+			],
+			"rot": [
+				-2.504477834008867e-06,
+				90.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 214,
+			"pos": [
+				0.0,
+				0.02409912645816803,
+				0.007899199612438679
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 214,
+			"pos": [
+				-0.24999994039535522,
+				0.0,
+				-0.00010081191430799663
+			],
+			"rot": [
+				-6.353574008244323e-06,
+				179.99989318847656,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 203,
+			"pos": [
+				0.0,
+				-0.09999999403953552,
+				-0.0
+			],
+			"rot": [
+				2.504477834008867e-06,
+				-90.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 192,
+			"pos": [
+				-0.014499999582767487,
+				-0.09759999811649323,
+				0.013500000350177288
+			],
+			"rot": [
+				0.0,
+				0.0,
+				180.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 190,
+			"pos": [
+				0.0,
+				0.028300000354647636,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 190,
+			"pos": [
+				0.0,
+				-0.023259999230504036,
+				-0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 190,
+			"pos": [
+				0.0,
+				0.020999999716877937,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 183,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-89.99994659423828,
+				-0.0,
+				-89.99994659423828
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 183,
+			"pos": [
+				0.010999999940395355,
+				0.1590999960899353,
+				-0.013699978590011597
+			],
+			"rot": [
+				0.0,
+				-90.0,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 183,
+			"pos": [
+				0.0,
+				0.20440000295639038,
+				-0.0
+			],
+			"rot": [
+				-2.5044776066351915e-06,
+				-89.99994659423828,
+				179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 181,
+			"pos": [
+				0.0,
+				0.004800008609890938,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 181,
+			"pos": [
+				0.0,
+				-0.0024999959859997034,
+				-0.0
+			],
+			"rot": [
+				-0.0,
+				89.99994659423828,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 167,
+			"pos": [
+				-0.007778173312544823,
+				0.032221823930740356,
+				-0.02800000086426735
+			],
+			"rot": [
+				89.99994659423828,
+				-0.0,
+				-179.99989318847656
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 167,
+			"pos": [
+				0.2800000011920929,
+				0.040000006556510925,
+				-0.0
+			],
+			"rot": [
+				-6.353574008244323e-06,
+				179.99989318847656,
+				-90.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 158,
+			"pos": [
+				0.0,
+				0.0,
+				0.12399999797344208
+			],
+			"rot": [
+				0.0,
+				-90.00000762939453,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.5086774826049805,
+				1.4271011352539063,
+				-0.3367677628993988
+			],
+			"rot": [
+				67.0367202758789,
+				-46.815208435058594,
+				-139.1668243408203
+			],
+			"scl": [
+				0.999999463558197,
+				0.9999994039535522,
+				0.9999995827674866
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 217,
+			"pos": [
+				-0.08543425798416138,
+				4.5512746282838634e-07,
+				-0.011275541968643665
+			],
+			"rot": [
+				-4.8354093451052904e-05,
+				-3.0161185350152664e-05,
+				-90.00000762939453
+			],
+			"scl": [
+				1.0000007152557373,
+				1.0000008344650269,
+				1.0000005960464478
+			]
+		},
+		{
+			"parent": 227,
+			"pos": [
+				0.055094897747039795,
+				-3.383669877621287e-08,
+				-0.0034925888758152723
+			],
+			"rot": [
+				3.5246015613665804e-05,
+				3.400641799089499e-05,
+				4.559641553214533e-11
+			],
+			"scl": [
+				1.0000007152557373,
+				1.0000008344650269,
+				1.0000005960464478
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				-0.08798602223396301,
+				-4.38095639765379e-08,
+				0.012731725350022316
+			],
+			"rot": [
+				-2.279819215356138e-11,
+				-6.513772160543496e-11,
+				7.67872362916755e-11
+			],
+			"scl": [
+				1.000000238418579,
+				1.0000003576278687,
+				1.0000005960464478
+			]
+		},
+		{
+			"parent": 220,
+			"pos": [
+				-0.03932198882102966,
+				4.170050260654534e-07,
+				-0.014870739541947842
+			],
+			"rot": [
+				-3.524604471749626e-05,
+				-3.4006447094725445e-05,
+				1.2376168145866728e-10
+			],
+			"scl": [
+				1.0000001192092896,
+				1.000000238418579,
+				1.0000005960464478
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				10.0,
+				1.0,
+				10.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				1.133160948753357,
+				0.8922066688537598,
+				0.4399999678134918
+			],
+			"rot": [
+				-0.0,
+				90.0,
+				0.0
+			],
+			"scl": [
+				0.9999991655349731,
+				1.0,
+				0.9999991655349731
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				5.879788398742676,
+				0.8830158114433289,
+				-5.960464477539063e-08
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				90.0
+			],
+			"scl": [
+				9.999995231628418,
+				0.9999997019767761,
+				10.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				5.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				45.0
+			],
+			"scl": [
+				9.999998092651367,
+				0.9999998807907104,
+				10.0
+			]
+		}
+	]
+}

@@ -1,0 +1,2681 @@
+{
+	"anims": [
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 0
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 1
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 2
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 3
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 4
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 5
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 6
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 7
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 8
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 9
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 10
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 11
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 12
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 13
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 14
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 15
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 16
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 17
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 18
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 19
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 20
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 21
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 22
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 23
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 24
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 25
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 26
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 27
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 28
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 29
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 30
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 31
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 32
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 33
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 34
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 35
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 36
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 37
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": true
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 38
+		},
+		{
+			"anim": {
+				"bool": [
+					{
+						"keys": [
+							{
+								"t": 0,
+								"v": false
+							}
+						],
+						"target": "Enable"
+					}
+				],
+				"flags": [],
+				"t_end": 0,
+				"t_start": 0
+			},
+			"idx": 39
+		}
+	],
+	"canvas": {
+		"clear_color": true,
+		"clear_z": true,
+		"color": [
+			0,
+			0,
+			0,
+			255
+		]
+	},
+	"environment": {
+		"ambient": [
+			0,
+			0,
+			0,
+			255
+		],
+		"brdf_map": "core/pbr/brdf.dds",
+		"current_camera": null,
+		"fog_color": [
+			255,
+			255,
+			255,
+			255
+		],
+		"fog_far": 0.0,
+		"fog_near": 0.0,
+		"irradiance_map": "core/pbr/probe.hdr.irradiance",
+		"radiance_map": "core/pbr/probe.hdr.radiance"
+	},
+	"key_values": null,
+	"nodes": [
+		{
+			"components": [
+				0,
+				4294967295,
+				0,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 0,
+			"name": "RBody_1"
+		},
+		{
+			"components": [
+				1,
+				4294967295,
+				1,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 1,
+			"name": "RBody_2"
+		},
+		{
+			"components": [
+				2,
+				4294967295,
+				2,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 2,
+			"name": "RBody_3"
+		},
+		{
+			"components": [
+				3,
+				4294967295,
+				3,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 3,
+			"name": "RBody_4"
+		},
+		{
+			"components": [
+				4,
+				4294967295,
+				4,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 4,
+			"name": "RButton_1"
+		},
+		{
+			"components": [
+				5,
+				4294967295,
+				5,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 5,
+			"name": "RButton_2"
+		},
+		{
+			"components": [
+				6,
+				4294967295,
+				6,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 6,
+			"name": "RButton_3"
+		},
+		{
+			"components": [
+				7,
+				4294967295,
+				7,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 7,
+			"name": "RButton_4"
+		},
+		{
+			"components": [
+				8,
+				4294967295,
+				8,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 8,
+			"name": "RRoller"
+		},
+		{
+			"components": [
+				9,
+				4294967295,
+				9,
+				4294967295,
+				4294967295
+			],
+			"disabled": false,
+			"idx": 9,
+			"name": "RRoller_2"
+		},
+		{
+			"components": [
+				10,
+				4294967295,
+				10,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 10,
+			"name": "RBody_1"
+		},
+		{
+			"components": [
+				11,
+				4294967295,
+				11,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 11,
+			"name": "RBody_2"
+		},
+		{
+			"components": [
+				12,
+				4294967295,
+				12,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 12,
+			"name": "RBody_3"
+		},
+		{
+			"components": [
+				13,
+				4294967295,
+				13,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 13,
+			"name": "RBody_4"
+		},
+		{
+			"components": [
+				14,
+				4294967295,
+				14,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 14,
+			"name": "RButton_1"
+		},
+		{
+			"components": [
+				15,
+				4294967295,
+				15,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 15,
+			"name": "RButton_2"
+		},
+		{
+			"components": [
+				16,
+				4294967295,
+				16,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 16,
+			"name": "RButton_3"
+		},
+		{
+			"components": [
+				17,
+				4294967295,
+				17,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 17,
+			"name": "RButton_4"
+		},
+		{
+			"components": [
+				18,
+				4294967295,
+				18,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 18,
+			"name": "RRoller"
+		},
+		{
+			"components": [
+				19,
+				4294967295,
+				19,
+				4294967295,
+				4294967295
+			],
+			"disabled": true,
+			"idx": 19,
+			"name": "RRoller_2"
+		}
+	],
+	"objects": [
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.03921568766236305,
+								0.03921568766236305,
+								0.03921568766236305,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RBody_1_48.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.0784313753247261,
+								0.0784313753247261,
+								0.0784313753247261,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.800000011920929,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RBody_2_49.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.03921568766236305,
+								0.03921568766236305,
+								0.03921568766236305,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RBody_3_50.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.016877710819244385,
+								0.016877710819244385,
+								0.016877710819244385,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.30000001192092896,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RBody_4_51.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.007843137718737125,
+								0.007784517481923103,
+								0.007781622931361198,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.10000000149011612,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RButton_1_52.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.30000001192092896,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RButton_2_53.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.10000000149011612,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RButton_3_54.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.10000000149011612,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RButton_4_55.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.9440000057220459,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RRoller_56.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "opaque",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								1.0
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": true
+				}
+			],
+			"name": "oculus_controller/RRoller_2_57.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.03921568766236305,
+								0.03921568766236305,
+								0.03921568766236305,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RBody_1_48.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.0784313753247261,
+								0.0784313753247261,
+								0.0784313753247261,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.800000011920929,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RBody_2_49.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.03921568766236305,
+								0.03921568766236305,
+								0.03921568766236305,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RBody_3_50.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.016877710819244385,
+								0.016877710819244385,
+								0.016877710819244385,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.30000001192092896,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RBody_4_51.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.007843137718737125,
+								0.007784517481923103,
+								0.007781622931361198,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.10000000149011612,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RButton_1_52.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.30000001192092896,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RButton_2_53.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.10000000149011612,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RButton_3_54.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.10000000149011612,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RButton_4_55.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.9440000057220459,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RRoller_56.geo"
+		},
+		{
+			"bones": [],
+			"material_infos": [
+				{
+					"name": "plastic"
+				}
+			],
+			"materials": [
+				{
+					"blend_mode": "alpha",
+					"depth_test": "less",
+					"face_culling": "cw",
+					"flags": [],
+					"program": "core/shader/pbr.hps",
+					"values": [
+						{
+							"name": "uBaseOpacityColor",
+							"type": "vec4",
+							"value": [
+								0.01568627543747425,
+								0.01568627543747425,
+								0.01568627543747425,
+								0.3499999940395355
+							]
+						},
+						{
+							"name": "uOcclusionRoughnessMetalnessColor",
+							"type": "vec4",
+							"value": [
+								1.0,
+								0.5,
+								0.20000000298023224,
+								0.03125
+							]
+						},
+						{
+							"name": "uSelfColor",
+							"type": "vec4",
+							"value": [
+								0.0,
+								0.0,
+								0.0,
+								-1.0
+							]
+						}
+					],
+					"write_a": true,
+					"write_b": true,
+					"write_g": true,
+					"write_r": true,
+					"write_z": false
+				}
+			],
+			"name": "oculus_controller/RRoller_2_57.geo"
+		}
+	],
+	"scene_anims": [
+		{
+			"anim": null,
+			"frame_duration": 50000000,
+			"name": "transparent",
+			"node_anims": [
+				{
+					"anim": 0,
+					"node": 0
+				},
+				{
+					"anim": 1,
+					"node": 2
+				},
+				{
+					"anim": 2,
+					"node": 3
+				},
+				{
+					"anim": 3,
+					"node": 4
+				},
+				{
+					"anim": 4,
+					"node": 5
+				},
+				{
+					"anim": 5,
+					"node": 6
+				},
+				{
+					"anim": 6,
+					"node": 7
+				},
+				{
+					"anim": 7,
+					"node": 8
+				},
+				{
+					"anim": 8,
+					"node": 9
+				},
+				{
+					"anim": 9,
+					"node": 10
+				},
+				{
+					"anim": 10,
+					"node": 11
+				},
+				{
+					"anim": 11,
+					"node": 12
+				},
+				{
+					"anim": 12,
+					"node": 13
+				},
+				{
+					"anim": 13,
+					"node": 14
+				},
+				{
+					"anim": 14,
+					"node": 15
+				},
+				{
+					"anim": 15,
+					"node": 16
+				},
+				{
+					"anim": 16,
+					"node": 17
+				},
+				{
+					"anim": 17,
+					"node": 18
+				},
+				{
+					"anim": 18,
+					"node": 19
+				},
+				{
+					"anim": 39,
+					"node": 1
+				}
+			],
+			"t_end": 100000000,
+			"t_start": 0
+		},
+		{
+			"anim": null,
+			"frame_duration": 50000000,
+			"name": "opaque",
+			"node_anims": [
+				{
+					"anim": 19,
+					"node": 0
+				},
+				{
+					"anim": 20,
+					"node": 2
+				},
+				{
+					"anim": 21,
+					"node": 3
+				},
+				{
+					"anim": 22,
+					"node": 4
+				},
+				{
+					"anim": 23,
+					"node": 5
+				},
+				{
+					"anim": 24,
+					"node": 6
+				},
+				{
+					"anim": 25,
+					"node": 7
+				},
+				{
+					"anim": 26,
+					"node": 8
+				},
+				{
+					"anim": 27,
+					"node": 9
+				},
+				{
+					"anim": 28,
+					"node": 10
+				},
+				{
+					"anim": 29,
+					"node": 11
+				},
+				{
+					"anim": 30,
+					"node": 12
+				},
+				{
+					"anim": 31,
+					"node": 13
+				},
+				{
+					"anim": 32,
+					"node": 14
+				},
+				{
+					"anim": 33,
+					"node": 15
+				},
+				{
+					"anim": 34,
+					"node": 16
+				},
+				{
+					"anim": 35,
+					"node": 17
+				},
+				{
+					"anim": 36,
+					"node": 18
+				},
+				{
+					"anim": 37,
+					"node": 19
+				},
+				{
+					"anim": 38,
+					"node": 1
+				}
+			],
+			"t_end": 100000000,
+			"t_start": 0
+		}
+	],
+	"transforms": [
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				179.9999542236328,
+				-5.297466793129718e-22
+			],
+			"scl": [
+				-0.261709988117218,
+				0.3285120129585266,
+				0.3285120129585266
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.0,
+				0.11466073989868164,
+				-0.15093813836574554
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.0,
+				0.11480985581874847,
+				-0.15093813836574554
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				7.301569894480053e-06,
+				0.1142793595790863,
+				-0.08598005026578903
+			],
+			"rot": [
+				2.4899320886367926e-12,
+				-3.319909234675289e-12,
+				0.0
+			],
+			"scl": [
+				0.9810170531272888,
+				0.9810171127319336,
+				0.9810170531272888
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.02277466654777527,
+				0.1303829550743103,
+				-0.175238236784935
+			],
+			"rot": [
+				-5.41658878326416,
+				-162.4692840576172,
+				-1.7919756174087524
+			],
+			"scl": [
+				1.2396959066390991,
+				0.49624499678611755,
+				1.0520910024642944
+			]
+		},
+		{
+			"parent": 0,
+			"pos": [
+				0.02276262827217579,
+				0.1215895339846611,
+				-0.1759026050567627
+			],
+			"rot": [
+				2.0355546675315805e-12,
+				0.0,
+				-1.9412560251199726e-19
+			],
+			"scl": [
+				1.0000001192092896,
+				1.0000001192092896,
+				1.0
+			]
+		},
+		{
+			"parent": null,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				5.008955668017734e-06,
+				179.9999542236328,
+				-5.297466793129718e-22
+			],
+			"scl": [
+				-0.261709988117218,
+				0.3285120129585266,
+				0.3285120129585266
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				0.0,
+				0.11466073989868164,
+				-0.15093813836574554
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				0.0,
+				0.11480985581874847,
+				-0.15093813836574554
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				7.301569894480053e-06,
+				0.1142793595790863,
+				-0.08598005026578903
+			],
+			"rot": [
+				2.4899320886367926e-12,
+				-3.319909234675289e-12,
+				0.0
+			],
+			"scl": [
+				0.9810170531272888,
+				0.9810171127319336,
+				0.9810170531272888
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"rot": [
+				-0.0,
+				0.0,
+				0.0
+			],
+			"scl": [
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				0.02277466654777527,
+				0.1303829550743103,
+				-0.175238236784935
+			],
+			"rot": [
+				-5.41658878326416,
+				-162.4692840576172,
+				-1.7919756174087524
+			],
+			"scl": [
+				1.2396959066390991,
+				0.49624499678611755,
+				1.0520910024642944
+			]
+		},
+		{
+			"parent": 10,
+			"pos": [
+				0.02276262827217579,
+				0.1215895339846611,
+				-0.1759026050567627
+			],
+			"rot": [
+				2.0355546675315805e-12,
+				0.0,
+				-1.9412560251199726e-19
+			],
+			"scl": [
+				1.0000001192092896,
+				1.0000001192092896,
+				1.0
+			]
+		}
+	]
+}
