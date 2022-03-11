@@ -6,7 +6,13 @@ Digital twin of the Pollen Robotics Reachy robot, based on:
  - [Python](https://www.python.org/downloads/release/python-380/)
  - [Pollen's URDF files](https://github.com/pollen-robotics/reachy_description)
  - [Pollen's Blender 3D files](https://github.com/pollen-robotics/reachy-blender)
- - [Harfang 3D](https://www.harfang3d.com/) 
+ - [Harfang 3D](https://www.harfang3d.com/)
+
+## How to run
+
+* Check the requirements below
+* To start in VR mode, type `python main.py`
+* To start without VR, type `python main.py no_vr`
 
 ## Requirements
 - Python 3.6
