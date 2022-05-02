@@ -473,12 +473,12 @@ def main(argv):
                 rot = joint_states[j][0]
             
                 if keyboard_override and joint_name in ["r_forearm_yaw", "r_gripper", "r_wrist_pitch", "r_wrist_roll", "l_forearm_yaw", "l_gripper", "l_wrist_pitch", "l_wrist_roll"]:
-                    hl.SetRotation(harfang_node[joint_name], 0, joint_node_offset[joint_name]["r"], 0)
+                    harfang_node[joint_name].GetTransform().SetRot(hl.Vec3(0, joint_node_offset[joint_name]["r"], 0))
                 else:
                     if joint_node_offset[joint_name]["inverse_angle"]:
-                        hl.SetRotation(harfang_node[joint_name], 0, -rot + joint_node_offset[joint_name]["r"], 0)
+                        harfang_node[joint_name].GetTransform().SetRot(hl.Vec3(0, -rot + joint_node_offset[joint_name]["r"], 0))
                     else:
-                        hl.SetRotation(harfang_node[joint_name], 0, rot + joint_node_offset[joint_name]["r"], 0)
+                        harfang_node[joint_name].GetTransform().SetRot(hl.Vec3(0, rot + joint_node_offset[joint_name]["r"], 0))
        
         # Compute IK according to the defined targets (using the GUI panel, the keyboard or the VR controllers)
         target_right = [vec_pos_target_right.x, vec_pos_target_right.z, vec_pos_target_right.y]
